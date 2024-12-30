@@ -45,7 +45,7 @@ describe("CollateralizedLoan", function () {
 
       expect(loan.collateralAmount).to.equal(ethers.parseEther("1"));
       expect(loan.interestRate).to.equal(7);
-      expect(loan.dueDate).to.be.closeTo(dueDate, 5); // Allowing a margin of 60 seconds for the test
+      expect(loan.dueDate).to.be.closeTo(dueDate, 5); // within 5 seconds
       expect(loan.borrower).to.equal(borrower.address);
     });
   });
