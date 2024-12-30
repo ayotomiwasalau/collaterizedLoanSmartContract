@@ -1,5 +1,3 @@
-#  Hardhat Project
-
 # Collateralized Loan Smart Contract
 
 This repository contains a simple collateralized loan contract developed, deployed, and interacted with on the Ethereum blockchain using Solidity. The contract manages loans backed by Ethereum as collateral, providing a practical implementation of financial smart contracts. it shows a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
